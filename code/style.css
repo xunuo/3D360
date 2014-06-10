@@ -1,0 +1,16 @@
+/* bottle-3d */
+#bottle-3d{ display:none; position:relative; height:450px; width:300px; border: 1px solid #333; }
+#bottle-top, #bottle-design, #bottle-bottom, #bottle-mask{ position:absolute; left:0; }
+
+/* bottle-top */
+#bottle-top {  top:0; z-index:10; height:450px !important; }
+#bottle-top img, #bottle-top canvas{ height:150px !important; }
+
+/* bottle-design */
+#bottle-design { top:180px; z-index:8; width:105px; overflow: hidden; left:102px; }
+#design-content{ position:relative; width:1000px; }
+#design-content img{ display: inline-block; }
+
+/* bottle-mask & bottle-bottom */
+#bottle-mask, #bottle-bottom { top:150px; }
+#bottle-mask{ z-index:9;  }
